@@ -38,7 +38,7 @@ class block_swyw extends block_base {
     public function get_content() {
         global $USER;
         
-        $remoteurl = 'http://www.phd-hub.com/action/services/user/';
+        $remoteurl = 'http://www.phdhive.com/action/services/user/';
         $localurl = '/blocks/swyw/swyw.php';
         
         if ($this->content !== null) {
